@@ -13,10 +13,25 @@ body{
     margin: 0 auto;
 }
 
-p{
+p, form{
     font-size: 16px;
     line-height: 30px;
     color: #777777;
+}
+
+input, textarea{
+    width: 100%;
+    border-color: #dddddd;
+    border: 1px groove;
+    margin: 8px 0;
+}
+
+input{
+    padding: 5px;
+}
+
+textarea{
+    padding: 80px;
 }
 
 #mainheader{
@@ -27,6 +42,7 @@ p{
     border-color: #dddddd;
     margin-bottom: 80px;
     margin-top: 20px;
+    width: 100%;
 }
 
 #pattern{
@@ -92,8 +108,14 @@ h2{
 }
 
 #footerborder{
+    border-top: 8px solid #4aaaa5;
+}
+
+#submit{
     background: #4aaaa5;
-    padding: 5px;
+    display: inline-block;
+    padding:  10px 30px;
+    color: #ffffff;
 }
 
 .clearfix::after{
@@ -105,7 +127,8 @@ h2{
 footer{
     background: #666666;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     color: #cccccc;
-    font-size: 14px;
+    font-size: 10px;
+    flex-shrink: 0;
 }
