@@ -19,6 +19,10 @@ p, form{
     color: #777777;
 }
 
+a:hover{
+    background-color: darkgrey;
+}
+
 input, textarea{
     width: 100%;
     border-color: #dddddd;
@@ -73,10 +77,29 @@ li a{
 
 img{
     float: left;
-    height: 150px;
-    width: 130px;
+    width: 40%;
+    height: 200px;
     margin-top: 20px;
     margin-right: 20px;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    margin-right: -45%;
+    margin-bottom: 20px;
+}
+
+.container .text{
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 30%;
+    top: 87%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
 }
 
 #mainheaderborder{
@@ -93,7 +116,6 @@ img{
     color: #ffffff;
     padding: 20px;
     margin-top: -10px;
-    width 50%;
 }
 
 h1,h2, h3{
