@@ -14,7 +14,7 @@ body{
 }
 
 p, form{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: #777777;
 }
@@ -77,8 +77,8 @@ li a{
 
 img{
     float: left;
-    width: 40%;
-    height: 200px;
+    width: 35%;
+    height: 220px;
     margin-top: 20px;
     margin-right: 20px;
 }
@@ -94,7 +94,7 @@ img{
     position: absolute;
     background: #4aaaa5;
     color: #ffffff;
-    width: 30%;
+    width: 35%;
     top: 87%;
     left: 0;
     right: 0;
