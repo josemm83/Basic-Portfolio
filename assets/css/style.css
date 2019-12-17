@@ -50,6 +50,7 @@ textarea{
 }
 
 #pattern{
+    width: 100%;
     background: url("../images/5-dots.png");
 }
 
@@ -77,8 +78,8 @@ li a{
 
 img{
     float: left;
-    width: 35%;
-    height: 220px;
+    width: 30%;
+    height: 200px;
     margin-top: 20px;
     margin-right: 20px;
 }
@@ -153,4 +154,56 @@ footer{
     color: #cccccc;
     font-size: 10px;
     flex-shrink: 0;
+}
+
+@media screen and (max-width: 980px){
+    .wrapper{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: auto;
+    }
+    
+    img{
+        width: 150px;
+        height: 150px;    
+    }
+
+    #navbar{
+        background: purple;
+        color: yellow;
+    }
+
+    #pattern{
+        background: url("../images/criss-cross.png")
+    }
+}
+
+@media screen and (max-width: 640px){
+    header footer ul img{
+        position: static;
+    }
+
+    img{
+        width: auto;
+        height: 80px;
+    }
+
+    #navbar{
+        font-size: 18px;
+        padding: 10px;
+        background: yellow;
+        color: purple;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    #pattern{
+        background: url("../images/circle-blues.png");
+    }
 }
